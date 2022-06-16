@@ -1,10 +1,7 @@
 class ChatroomController < ApplicationController
+
   def index
-    # render html: "Hello Rails!"
-
+    @messages = Message.all
   end
 
-  def about
-
-  end
 end
